@@ -1,0 +1,10 @@
+main: si.f5.mirageserver.mcbansfaker.MCBansFaker
+name: MCBansFaker
+version: 1.0.0
+commands:
+  fakemcbans:
+    permission: fakemb
+    usage: /fakemcbans <player name> <player ip address>
+permissions:
+  fakemb:
+    default: op
